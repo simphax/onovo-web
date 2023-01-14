@@ -14,18 +14,25 @@
 
 .content p {
     display: block;
-    margin: .8em auto;
+    margin: 1rem auto 0 auto;
+}
+.content a {
+    display: inline-block;
+    padding: .6em 0;
 }
 .delimitor {
     display: block;
-    height: .1em;
+    height: 0px;
 }
 @media (min-width: 800px) {
+    .content p {
+        margin: 0 auto;
+    }
     .delimitor {
         display: inline-block;
         width: 1.5px;
         height: 1em;
-        margin: 0 5px -.15em 5px;
+        margin: 0 5px -.2em 5px;
         background-color: #222;
     }
 }
