@@ -1,0 +1,39 @@
+.gradient {
+    position: relative;
+}
+.gradient__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: calc((277/760) * 100%);
+    background: #000;
+    overflow: hidden;
+}
+.gradient__gradient canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -30%;
+    opacity: 0;
+    animation: fade-in 2s 0.1s ease-in-out forwards;
+}
+.gradient__logo {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    mix-blend-mode: screen;
+}
+.gradient__logo svg {
+    width: 100%;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

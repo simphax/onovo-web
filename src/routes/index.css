@@ -1,0 +1,31 @@
+.gradient {
+    margin: 0 auto;
+    padding: 10vh 5vw 1vh 5vw;
+    max-width: 960px;
+}
+
+.content {
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 0 20vw 0 20vw;
+}
+
+.content p {
+    display: block;
+    margin: .8em auto;
+}
+.delimitor {
+    display: block;
+    height: .1em;
+}
+@media (min-width: 800px) {
+    .delimitor {
+        display: inline-block;
+        width: 1.5px;
+        height: 1em;
+        margin: 0 5px -.15em 5px;
+        background-color: #222;
+    }
+}

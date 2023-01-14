@@ -1,0 +1,31 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+:root {
+  --qwik-dark-blue: #000290;
+  --qwik-light-blue: #18b6f6;
+  --qwik-light-purple: #ac7ff4;
+  --qwik-dark-purple: #713fc2;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: "Pavanam", sans-serif;/*ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;*/
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  color: #222;
+}
+
+a:hover {
+  text-decoration: none;
+}
